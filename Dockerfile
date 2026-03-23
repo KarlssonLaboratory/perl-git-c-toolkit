@@ -7,13 +7,14 @@ LABEL org.opencontainers.image.source="https://github.com/KarlssonLaboratory/per
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    gcc \
-    g++ \
-    make \
-    perl \
-    zlib1g-dev \
-    git \
-    && rm -rf /var/lib/apt/lists/*
+  gcc \
+  g++ \
+  make \
+  perl \
+  zlib1g-dev \
+  git \
+  ca-certificates \
+  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /data
 

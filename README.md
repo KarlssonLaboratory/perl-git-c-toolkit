@@ -8,7 +8,7 @@ Every push to `main` automatically builds and pushes the image to GitHub Contain
 
 ## Included softwares
 
-`gcc`, `g++`, `make`, `perl`, `zlib1g-dev`, `git`, `ca-certificates` (SSL certificates to talk to github)
+`gcc`, `g++`, `make`, `perl`, `bzip2` `zlib1g-dev`, `git`, `ca-certificates` (SSL certificates to talk to github)
 
 ## Pull from GitHub Container Registry
 

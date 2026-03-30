@@ -11,10 +11,8 @@ A minimal Ubuntu 22.04 container with Perl, Git, and C/C++ build tools. Mainly u
 
 ## Include in nextflow process
 
-The container definition uses an [elvis operator](https://www.nextflow.io/docs/latest/reference/syntax.html#unary-expressions) = `<statement> ? <TRUE> : <FALSE>`, used for 
-
-```js
-process NAME {
+```groovy
+process PROCESS_NAME {
 	
 	. . .
 
@@ -25,6 +23,8 @@ process NAME {
   . . .
 }
 ```
+
+The container definition uses an [elvis operator](https://www.nextflow.io/docs/latest/reference/syntax.html#unary-expressions) = `<statement> ? <TRUE> : <FALSE>`
 
 ## Pull from GitHub Container Registry
 
